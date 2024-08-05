@@ -1,11 +1,1 @@
-/* Border */
 
-position: absolute;
-width: 96px;
-height: 96px;
-left: 8px;
-top: 8px;
-
-/* Main/Red */
-border: 2px solid #E3646E;
-border-radius: 999px;

@@ -27,7 +27,7 @@
 
     --text-font-family:'Maven Pro', sans serif;
     --text-md: 400 16px/140% var(--text-font-family);
-    --text-sm: 400 14px/140 var(--text-font-family);
+    --text-sm: 400 14px/140% var(--text-font-family);
 
 }
 
@@ -35,13 +35,12 @@ body{
     color:var(--base-color-gray400);
     background-color: var(--base-color-gray200);
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-tag{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     background-color: var(--base-color-gray300);
     padding: 8px 16px;
     gap: 8px;

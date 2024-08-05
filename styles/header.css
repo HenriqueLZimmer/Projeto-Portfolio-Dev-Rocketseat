@@ -1,31 +1,72 @@
 header{
-    width: 1040px;
-    align-items: center;
-}
-
-body{
-    height: 750px;
     background-image: url(/assets/background/Background_Intro.png);
     background-size: cover;
 }
 
 
 #userimage{
-    padding-top: 80px;
+    width: 680px;
+    margin:auto;
+    padding-top: 130px;
     padding-bottom: 56px;
+
+    #imguser{
+        padding-bottom: 56px;
+
+        .user{
+            position: absolute;
+            width: 87.27px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 9999px;
+            justify-content: center;
+        }
+
+        .vector{
+            position: relative;
+            width: 31px;
+            height: 25px;
+            object-fit: cover;
+            color:var(--base-color-green);
+        }
+
+        .borda{
+            position:relative;
+            width: 96px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            color:var(--base-color-red);
+        }
+    }
+
+
+    span{
+        font:var(--subtitle);
+        color:var(--base-color-gray500);
+    }
+
+    .name{
+        color:var(--main-color-red);
+    }
+
+    h1{
+        font:var(--title-lg);
+        color:var(--base-color-gray600);
+        padding-block: 20px;
+    }
+    
+    p{
+        font:var(--text-sm);
+        color:var(--base-color-gray400);
+    }
+
 }
 
 
-.user{
-    position: absolute;
-    width: 87.27px;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    border-radius: 9999px;
-}
 
 #features{
-    align-items: center;
-    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 96px;
     gap: 16px;
 }
+

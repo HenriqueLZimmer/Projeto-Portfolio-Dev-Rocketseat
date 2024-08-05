@@ -34,3 +34,4 @@ Project development
     The header being first and the footer last.
 
 Publish project on github
+

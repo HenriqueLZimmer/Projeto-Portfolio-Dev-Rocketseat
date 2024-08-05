@@ -1,0 +1,31 @@
+header{
+    width: 1040px;
+    align-items: center;
+}
+
+body{
+    height: 750px;
+    background-image: url(/assets/background/Background_Intro.png);
+    background-size: cover;
+}
+
+
+#userimage{
+    padding-top: 80px;
+    padding-bottom: 56px;
+}
+
+
+.user{
+    position: absolute;
+    width: 87.27px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 9999px;
+}
+
+#features{
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}

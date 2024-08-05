@@ -1,0 +1,36 @@
+Start of de project (Dev portfolio project)
+    Start with the style guide
+        Download all images
+        Download font
+        Download colors
+
+    Create index.html
+    Create gitignore
+
+    Create assets folder
+        Create icons folder
+        Create images folder
+
+    Create styles folder
+        Create index.css
+        Create global.css (All variables relevant to the entire project)
+        Create header.css
+        Create footer.css
+        Create section.css
+        Create utility.css (Style composition of elements on the page)
+
+    globa.css
+        Create the source variables
+        Create the color variables
+        Create the main styles
+
+    The project always starts by placing:
+        magin:0;
+        padding:0;
+        box-sizing: border-box;
+
+Project development
+    As a good practice, always start with top-down development.
+    The header being first and the footer last.
+
+Publish project on github

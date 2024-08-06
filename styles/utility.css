@@ -8,4 +8,16 @@
     display: grid;
 }
 
+.gap-24{
+    gap: 24px;
+}
 
+span{
+    font:var(--subtitle);
+    color:var(--base-color-gray500);
+}
+
+.name{
+    font:var(--subtitle);
+    color:var(--main-color-red);
+}

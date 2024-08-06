@@ -1,0 +1,36 @@
+main{
+    background-color: var(--base-color-gray200);
+    header{
+        padding-top: 72px;
+        padding-bottom: 56px;
+    }
+
+}
+
+h2{
+    padding-top: 8px;
+}
+
+#weekly{
+
+    grid-area: weekly;
+
+    &>div{
+        grid-template-columns: repeat(3,330px);
+    }
+
+    figure{
+        position: relative;
+        .content-tag2{
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+        img{
+            width: 306px;
+            height: 156px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    }
+}

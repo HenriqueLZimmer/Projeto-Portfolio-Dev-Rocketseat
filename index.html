@@ -11,13 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Asap:wdth,wght@75..125,700&family=Inconsolata&family=Maven+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div id="userimage">
-            <div id="imguser">
-                <img class="user" src="assets/userimage/Foto Henrique.jpg" alt="Henrique Zimmer">
-                <img class="vector" src="assets/icons/Code.svg" alt="code">
-                <img class="borda" src="assets/userimage/Border.svg" alt="border">
+    <header class="container">
+        <div id="primary">
+            <div id="imguser" class="flex">
+                <picture>
+                    <img class="user" src="assets/userimage/Foto Henrique.jpg" alt="Henrique Zimmer">
+                </picture>
+                <picture>
+                    <img class="vector" src="assets/icons/Code.svg" alt="code">
+                </picture>
+                <picture>
+                    <img class="borda" src="assets/userimage/Border.svg" alt="border">
+                </picture>
             </div>
+        </div>
+        <div id="secundary">
             <span>Hello World! Meu nome é</span>
             <span class="name">Henrique Zimmer</span>
             <span> e sou</span>
@@ -25,6 +33,7 @@
             <p>Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
             </p>
         </div>
+
         <div id="features" class="flex">
             <section class="content-tag">
                 <img src="assets/logo/gitgray.svg" alt="GitHub">
@@ -61,5 +70,64 @@
             <img src="assets/icons/caretdoubledown.svg" alt="para baixo">
         </div>
     </header>
+
+    <main>
+        <section id="weekly">
+            <header>
+                <span class="name">Meu trabalho</span>
+                <h2>Veja os projetos em destaque</h2>    
+            </header>
+
+            <div class="grid gap-24">
+                <a href="#" class="content-tag2">
+                    <figure>
+                        <img src="assets/images/Thumbnail_Project-01.png" alt="Travelgram">
+                        <h3>Travelgram</h3>
+                        <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+                    </figure>
+                </a>
+
+                <a href="#" class="content-tag2">
+                    <figure>
+                        <img src="assets/images/Thumbnail_Project-02.png" alt="Travelgram">
+                        <h3>Tech News</h3>
+                        <p>Homepage de um portal de notícias sobre a área de tecnologia</p>
+                    </figure>
+                </a>
+
+                <a href="#" class="content-tag2">
+                    <figure>
+                        <img src="assets/images/Thumbnail_Project-03.png" alt="Travelgram">
+                        <h3>Página de receita</h3>
+                        <p>Página com o passo a passo de uma receita para cupcakes</p>
+                    </figure>
+                </a>
+
+                <a href="#" class="content-tag2">
+                    <figure>
+                        <img src="assets/images/Thumbnail_Project-04.png" alt="Travelgram">
+                        <h3>Zingen</h3>
+                        <p>Landing Page completa e responsiva de um aplicatico de Karaokê</p>
+                    </figure>
+                </a>
+
+                <a href="#" class="content-tag2">
+                    <figure>
+                        <img src="assets/images/Thumbnail_Project-05.png" alt="Travelgram">
+                        <h3>Refund</h3>
+                        <p>Um sistema para pedido e acompanhamento de reembolso</p>
+                    </figure>
+                </a>
+
+                <a href="#" class="content-tag2">
+                    <figure>
+                        <img src="assets/images/Thumbnail_Project-06.png" alt="Travelgram">
+                        <h3>Página de turismo</h3>
+                        <p>Página com as principais informações para quem quer viajar para Busan</p>
+                    </figure>
+                </a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

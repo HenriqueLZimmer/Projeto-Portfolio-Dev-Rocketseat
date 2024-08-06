@@ -1,5 +1,5 @@
 main{
-    background-color: var(--base-color-gray200);
+
     header{
         padding-top: 72px;
         padding-bottom: 56px;
@@ -7,13 +7,19 @@ main{
 
 }
 
+.grid{
+    justify-content: center;
+}
+
 h2{
     padding-top: 8px;
+    color:var(--base-color-gray600)
 }
 
 #weekly{
-
+    background-color: var(--base-color-gray200);
     grid-area: weekly;
+    padding:72px 120px 120px 144px;
 
     &>div{
         grid-template-columns: repeat(3,330px);
@@ -32,5 +38,32 @@ h2{
             object-fit: cover;
             border-radius: 8px;
         }
+    }
+}
+
+#service{
+    background-color: var(--base-color-gray100);
+    grid-area: service;
+    padding:88px 120px 120px 120px;
+
+    &>div{
+        grid-template-columns: repeat(3,330px);
+    }
+
+    figure{
+        position: relative;
+
+        .content-tag3{
+            position: absolute;
+        }
+        img{
+            padding: 20px;
+        }
+    }
+    figcaption{
+        text-align: left;
+        padding-block-start: 12px;
+        padding-inline-start: 12px;
+
     }
 }

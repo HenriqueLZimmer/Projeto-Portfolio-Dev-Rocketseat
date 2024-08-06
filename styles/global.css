@@ -33,7 +33,7 @@
 
 body{
     color:var(--base-color-gray400);
-    background-color: var(--base-color-gray200);
+    /* background-color: var(--base-color-gray200); */
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -77,4 +77,23 @@ a{
         padding-inline-start: 12px;
         
     }
+}
+
+.content-tag3{
+    display: grid;
+    border: 2px solid var(--base-color-gray200);
+    width: 280px;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 12px;
+    h3{
+        font: var(--title-sm);
+        color: var(--base-color-gray600);
+    }
+    span{
+        font: var(--text-sm);
+        color: var(--base-color-gray500);
+    }
+    
+
 }

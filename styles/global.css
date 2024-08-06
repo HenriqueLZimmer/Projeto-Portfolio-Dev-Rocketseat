@@ -23,7 +23,7 @@
     --title-sm: 700 16px/120% var(--title-font-family);
 
     --subtitle-font-family: 'Inconsolata', sans serif;
-    --subtitle: 400 20px/120% var(var(--subtitle-font-family));
+    --subtitle: 400 20px/120% var(--subtitle-font-family);
 
     --text-font-family:'Maven Pro', sans serif;
     --text-md: 400 16px/140% var(--text-font-family);
@@ -33,7 +33,7 @@
 
 body{
     color:var(--base-color-gray400);
-    /* background-color: var(--base-color-gray200); */
+    background-color: var(--base-color-gray200);
     text-align: center;
     justify-content: center;
     align-items: center;

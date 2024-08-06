@@ -18,7 +18,6 @@ h2{
 
 #weekly{
     background-color: var(--base-color-gray200);
-    grid-area: weekly;
     padding:72px 120px 120px 144px;
 
     &>div{
@@ -43,29 +42,40 @@ h2{
 
 #service{
     background-color: var(--base-color-gray100);
-    grid-area: service;
     padding:88px 120px 120px 120px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
 
-    &>div{
-        grid-template-columns: repeat(3,330px);
+    header{
+        grid-column: 1 / -1; /* Faz o header ocupar toda a largura da grid */
+        text-align: center;
     }
+    div{
+        display: grid; /* Define o contêiner interno como grid */
+        grid-template-columns: repeat(3, 1fr); /* Mantém 3 colunas fixas */
+        gap: 24px;
+    }
+        figure{
+            position: relative;
+            margin: 0;
 
-    figure{
-        position: relative;
-
-        .content-tag3{
-            position: absolute;
+            .content-tag3{
+                position: absolute;
+            }
+            img{
+                padding: 20px;
+                display: block;
+                margin: 0 auto;
+            }
         }
-        img{
-            padding: 20px;
-        }
-    }
-    figcaption{
-        text-align: left;
-        padding-block-start: 12px;
-        padding-inline-start: 12px;
+        figcaption{
+            text-align: left;
+            padding-block-start: 12px;
+            padding-inline-start: 12px;
 
-    }
+        }
 }
 
 #contact{

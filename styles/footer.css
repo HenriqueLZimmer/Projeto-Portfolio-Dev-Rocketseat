@@ -1,0 +1,5 @@
+#footer{
+    color: var(--base-color-gray500);
+    font:var(--text-md);
+    padding-block: 20px;
+}

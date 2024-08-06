@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+    .vector {
+        top: 60%;
+        left: 52%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .vector {
+        top: 61%;
+        left: 53%;
+    }
+}

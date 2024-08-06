@@ -85,9 +85,20 @@ h2{
     .content-tag{
         width: 400px;
         border-radius: 8px;
+        justify-content: space-between;
+
+        a{
+            display: flex;
+            align-items: center;
+            gap:12px;
+
+        }
+
+        .arrow{
+            margin-left: auto;
+            width: 20px;
+            aspect-ratio: 1/1;
+        }
     }
-    .arrow{
-        width: 20px;
-        aspect-ratio: 1/1;
-    }
+
 }

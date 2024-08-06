@@ -6,7 +6,7 @@
 
 :root{
     --main-color-red:#e3646e;
-    --main-color-puple:#bb72e9;
+    --main-color-purple:#bb72e9;
     --main-color-blue:#3996db;
     --main-color-green:#82bc4f;
     --main-color-yellow:#eabd5f;
@@ -94,6 +94,7 @@ a{
         font: var(--text-sm);
         color: var(--base-color-gray500);
     }
+
     
 
 }

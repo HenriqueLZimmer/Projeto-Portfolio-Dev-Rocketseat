@@ -67,3 +67,27 @@ h2{
 
     }
 }
+
+#contact{
+    background-image: url(/assets/background/Background_Contacts.png);
+    background-size: cover;
+    padding:128px 120px 200px 120px;
+
+    .name{
+        font: var(--subtitle);
+        color:var(--main-color-purple)
+    }
+    
+    h3{
+        padding-bottom: 48px;
+    }
+
+    .content-tag{
+        width: 400px;
+        border-radius: 8px;
+    }
+    .arrow{
+        width: 20px;
+        aspect-ratio: 1/1;
+    }
+}
